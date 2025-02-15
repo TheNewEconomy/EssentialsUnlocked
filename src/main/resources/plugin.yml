@@ -1,0 +1,13 @@
+name: EssentialsUnlocked
+version: '1.0.0.0'
+main: net.tnemc.essentialsUnlocked.EssentialsUnlocked
+
+authors: [ creatorfromhell ]
+description: A simple adapter for EssentialsX to use VaultUnlocked since EssentialsX won't add it.
+website: https://tnemc.net
+api-version: 1.13
+folia-supported: true
+
+depend:
+  - Vault
+  - Essentials
