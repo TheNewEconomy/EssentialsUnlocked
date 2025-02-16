@@ -15,6 +15,9 @@ Because EssentialsX has been dropping the ball on economy support **for years**.
 
 Instead of waiting another five years for them to *maybe* fix it, we did it ourselves. **You're welcome.**  
 
+Oh, and fun fact: **This README was written by AI.** Why?  
+Because that’s exactly the **same level of effort EssentialsX put into fixing the town balance resetting issue.**
+
 ## ⚡ Features  
 
 - **Bridges EssentialsX Economy with VaultUnlocked** like it should have been from day one  
