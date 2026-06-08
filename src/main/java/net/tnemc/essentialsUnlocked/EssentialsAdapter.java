@@ -6,7 +6,6 @@ import com.earth2me.essentials.User;
 import com.earth2me.essentials.api.NoLoanPermittedException;
 import com.earth2me.essentials.api.UserDoesNotExistException;
 import com.earth2me.essentials.config.EssentialsUserConfiguration;
-import com.earth2me.essentials.utils.AdventureUtil;
 import com.earth2me.essentials.utils.NumberUtil;
 import net.ess3.api.MaxMoneyException;
 import net.milkbowl.vault2.economy.AccountPermission;
@@ -80,7 +79,7 @@ public class EssentialsAdapter implements Economy {
   @Override
   public @NotNull String format(@NotNull final String pluginName, @NotNull final BigDecimal amount) {
 
-    return AdventureUtil.miniToLegacy(NumberUtil.displayCurrency(amount, ess));
+    return NumberUtil.displayCurrency(amount, ess);
   }
 
   /**
